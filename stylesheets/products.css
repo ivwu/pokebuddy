@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/city.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.logo {
+    width: 200px;
+}
+
+/* nav {
+    background:transparent;
+} */
+
+.card-title {
+    text-align: center;
+}
+
+/* form {
+    align-items: center;
+} */
