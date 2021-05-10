@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="../stylesheets/register.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <form class="col s12" id="reg-form">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate" placeholder="First Name"required>
+                        <label for="first_name"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate" placeholder="Last Name" required>
+                        <label for="last_name"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" placeholder= "Email" class="validate" required>
+                        <label for="email"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password"  placeholder= "Password" class="validate" minlength="6" required>
+                        <label for="password"></label>
+                    </div>
+                </div>
+                <div class="row">
+
+
+                    <div class="input-field col s6">
+                        <button class="btn btn-large btn-register waves-effect waves-light" type="submit"
+                            name="action"><a href="./login.html">Register</a>
+                        </button>
+                    </div>
+                    </div>
+                    <div class="login-btn">
+                        <button class="#448aff blue accent-2 btn btn-small btn-register waves-effect waves-light">
+                            <a href="./login.html">Already have an accout? Log In here!</a>
+                        </button>                   
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
