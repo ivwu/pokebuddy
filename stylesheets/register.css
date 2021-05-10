@@ -13,6 +13,7 @@ body {
 
 .container {
   background: white;
+  border-radius: 15px;
   padding: 20px 25px;
   border: 5px solid #26a69a;
   width: 550px;
@@ -59,4 +60,23 @@ radio:required {
 
 a {
   color: white;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(224, 57, 57);
+  font-family: 'Pokemon';
+  /* text-shadow: 3px 0 rgb(3, 0, 184) */
+}
+
+img  {
+  width: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.btn {
+  border-radius: 10px;
 }
