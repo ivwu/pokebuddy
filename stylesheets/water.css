@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/volcano.jpg);
+    background-image: url(../images/coast.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,7 +10,7 @@ body {
 .jumbotron {
     margin: 10%;
     padding-bottom: 1%;
-    background-color: rgba(230, 148, 134, 0.267);
+    background-color: rgba(104, 149, 233, 0.267);
 }
 
 .back {
@@ -26,5 +26,5 @@ body {
 }
 
 .table {
-    background-color: rgba(233, 140, 133, 0.712);
+    background-color: rgba(69, 120, 228, 0.712);
 }
