@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/forest.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.jumbotron {
+    margin: 10%;
+}
+
+.back {
+    height: 475px;
+    width: 475px
+}
+
+@media only screen and (max-width: 600px) {
+    .rounded {
+      height: 250px;
+      width: 250px
+    }
+  }
