@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/city.jpg);
+    background-image: url(../images/pokemasters.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,3 +22,12 @@ body {
 /* form {
     align-items: center;
 } */
+/* 
+.card {
+    margin: .5rem 0 1rem 0;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+} */
+
+.row {
+    margin: 20px;
+}
