@@ -11,10 +11,6 @@ body {
     width: 200px;
 }
 
-/* nav {
-    background:transparent;
-} */
-
 .card-title {
     text-align: center;
 }
@@ -31,3 +27,8 @@ body {
 .row {
     margin: 20px;
 }
+
+/* .card{
+    box-sizing: border-box;
+    margin-bottom: 1000px;
+} */
