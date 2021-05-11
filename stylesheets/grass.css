@@ -7,6 +7,19 @@ body {
     background-color: #464646;
 }
 
+.logo {
+    width: 200px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+.row {
+    margin: 20px;
+}
+
 .jumbotron {
     margin: 10%;
     padding-bottom: 1%;
@@ -27,4 +40,24 @@ body {
 
 .table {
     background-color: rgba(133, 233, 138, 0.712);
+}
+
+body {
+    font-family: 'Girassol', cursive;
+}
+
+.display-4{
+    font-size: 100px;
+    color: rgb(19, 54, 19);
+}
+
+.table, .lead {
+    font-size: 20px;
+    color: rgb(19, 54, 19);
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(19, 54, 19)
 }

@@ -7,6 +7,19 @@ body {
     background-color: #464646;
 }
 
+.logo {
+    width: 200px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+.row {
+    margin: 20px;
+}
+
 .jumbotron {
     margin: 10%;
     padding-bottom: 1%;
@@ -29,6 +42,25 @@ body {
     background-color: rgba(153, 228, 238, 0.712);
 }
 
+.display-4{
+    font-size: 100px;
+    color: rgb(17, 86, 107);
+    font-family: 'Girassol', cursive;
+}
+
+.table, .lead {
+    font-size: 20px;
+    color: rgb(17, 86, 107);
+    font-family: 'Girassol', cursive;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(17, 86, 107);
+    font-family: 'Girassol', cursive;
+}
+
 .btn-success {
-    background-color: rgb(110, 223, 238);
+    background-color: rgb(17, 86, 107);
 }

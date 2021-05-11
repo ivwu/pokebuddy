@@ -20,6 +20,27 @@ body {
     margin: 20px;
 }
 
+body {
+    font-family: 'Girassol', cursive;
+}
+
+/* .card {
+    font-family: 'Girassol', cursive;
+} */
+
+.card-title {
+    font-size: 35px;
+    color: cornflowerblue
+}
+
+.btn {
+    font-size: 18px;
+    color:rgb(26, 141, 235)
+}
+
+/* .card {
+    background-color: rgba(228, 232, 236, 0.89);
+} */
 /* .card{
     box-sizing: border-box;
     margin-bottom: 1000px;
