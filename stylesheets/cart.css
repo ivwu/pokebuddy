@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/pokemon-in-the-wild.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.logo {
+    width: 200px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+.row {
+    margin: 20px;
+}
+
+.jumbotron {
+    margin: 10%;
+    padding-bottom: 1%;
+    background-color: rgba(230, 148, 134, 0.384);
+}
+
+.back {
+    height: 475px;
+    width: 475px
+}
+
+@media only screen and (max-width: 600px) {
+    .rounded {
+        height: 250px;
+        width: 250px
+    }
+}
+
+.table {
+    background-color: rgba(233, 140, 133, 0.712);
+}
+
+body {
+    font-family: 'Girassol', cursive;
+}
+
+.display-4{
+    font-size: 100px;
+    color: rgb(158, 31, 31);
+}
+
+.table, .lead {
+    font-size: 20px;
+    color: rgb(158, 31, 31);
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(158, 31, 31);
+}
