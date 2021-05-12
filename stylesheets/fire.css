@@ -61,3 +61,7 @@ body {
     font-weight: 500;
     color: rgb(158, 31, 31);
 }
+
+.custom {
+    cursor: url(../images/ditto.png), default;
+}
