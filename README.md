@@ -2,7 +2,10 @@
 
 PokéBuddy is an e-commerce that sells Pokémon. 
 
-***An embedded screenshot of the app***
+**Deployed Link**
+https://ivwu.github.io/pokebuddy/
+
+<!-- ***An embedded screenshot of the app*** -->
 
 ![registration page](/images/registration.png)
 
