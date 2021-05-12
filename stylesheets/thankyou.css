@@ -16,14 +16,12 @@ body {
 }
 
 
-.row {
-    margin: 20px;
-}
-
 .jumbotron {
     margin: 10%;
+    margin-left: 1%;
     padding-bottom: 1%;
-    background-color: rgba(137, 223, 230, 0.267);
+    /* background-color: rgba(230, 137, 137, 0.116); */
+    background-color: transparent;
 }
 
 .back {
@@ -48,22 +46,12 @@ body {
 
 .display-4{
     /* font-size: 100px; */
-    color: rgb(17, 86, 107);
+    color: rgb(80, 156, 65);
 }
 
 .table, .lead {
     font-size: 20px;
     color: rgb(17, 86, 107);
-}
-
-.price {
-    font-size: 30px;
-    font-weight: 500;
-    color: rgb(17, 86, 107);
-}
-
-.btn-success {
-    background-color: rgb(17, 86, 107);
 }
 
 .custom {
