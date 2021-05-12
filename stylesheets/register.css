@@ -84,3 +84,10 @@ img  {
 .select {
   color: cornflowerblue
 }
+
+.contact {
+  color: aqua;
+  background-color: rgba(53, 115, 131, 0.233);
+  margin-left: 5%;
+  font-family: 'Girassol', cursive;
+}
