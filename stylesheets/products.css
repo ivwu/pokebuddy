@@ -24,6 +24,10 @@ body {
     font-family: 'Girassol', cursive;
 }
 
+.custom {
+    cursor: url(../images/ditto.png), default;
+}
+
 /* .card {
     font-family: 'Girassol', cursive;
 } */
