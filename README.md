@@ -4,9 +4,13 @@ PokéBuddy is an e-commerce that sells Pokémon.
 
 ***An embedded screenshot of the app***
 
-![start page](/images/glacier.jpg)
+![registration page](/images/registration.png)
 
-![result page](/images/city.jpg)
+![products page](/images/products.png)
+
+![detail page](/images/detail.png)
+
+![cart page](/images/cart.png)
 
 ***List of the Technologies used***
 - HTML
@@ -21,7 +25,10 @@ PokéBuddy is an e-commerce that sells Pokémon.
 - As a user, I want to be able to see a cart of my added products
 - As a user, I want to be able to use the web on my moblie and laptop so that I can browse on the go as well
 
+<!-- 
+***Descriptions of any Unsolved problems or major hurdles you had to overcome*** -->
 
-***Descriptions of any Unsolved problems or major hurdles you had to overcome***
+***Resources Used for Images***
 
-***Resources Used***
+- https://www.pokemon.com/
+- https://pokeapi.co/
