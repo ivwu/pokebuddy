@@ -21,7 +21,7 @@ div.content-table h1 {
 
 .login-btn {
   background-color: rgb(240, 228, 228);
-  border-radius: 30%;
+  /* border-radius: 30%; */
   /* letter-spacing: .2em;
     font-size: 13px;
     font-family: FuturaStd-Heavy;
@@ -30,9 +30,9 @@ div.content-table h1 {
     padding: 20px;
     color: rgba(4, 41, 14, 0.925);
     border: 2px solid rgb(170, 78, 78); */
-  margin-top: 550px;
+  margin-top: 55%;
   text-shadow: none;
-  width: 400px;
+  font-size: 25px;
 }
 
 .container {
@@ -88,4 +88,8 @@ radio:required {
 
 img {
   width: 400px
+}
+
+body {
+  font-family: 'Girassol', cursive;
 }
