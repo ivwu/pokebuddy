@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/pokemon-in-the-wild.png);
+    background-image: url(../images/trophy.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,6 +24,7 @@ body {
     margin: 10%;
     padding-bottom: 1%;
     background-color: rgba(209, 169, 241, 0.384);
+    /* background-color: ; */
 }
 
 .back {
@@ -38,9 +39,6 @@ body {
     }
 }
 
-.table {
-    background-color: rgba(209, 169, 241, 0.712);
-}
 
 body {
     font-family: 'Girassol', cursive;
@@ -48,9 +46,32 @@ body {
 
 .display-4{
     font-size: 65px;
-    color: rgb(77, 24, 121);
+    color: rgba(77, 24, 121, 0.849);
+}
+
+.btn.remove {
+    background-color: rgb(157, 96, 206);
 }
 
 .btn {
     background-color: rgb(77, 24, 121);
+}
+
+.item {
+    background-color: rgba(83, 125, 204, 0.795);
+}
+
+.card-title {
+    margin-top: 10%;
+    color: rgb(77, 24, 121);
+}
+
+.lead {
+    color: rgb(77, 24, 121)
+}
+
+@media (min-width: 650px) {
+    .card-title {
+        font-size: 50px;
+    }
 }

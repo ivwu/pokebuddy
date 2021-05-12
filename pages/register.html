@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="../stylesheets/register.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
-    <link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet"
+        type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
 </head>
 
 <body>
@@ -30,31 +40,49 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="email" placeholder= "Email" class="validate" required>
+                        <input id="email" type="email" placeholder="Email" class="validate" required>
                         <label for="email"></label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="password" type="password"  placeholder= "Password" class="validate" minlength="6" required>
+                        <input id="password" type="password" placeholder="Password" class="validate" minlength="6"
+                            required>
                         <label for="password"></label>
+                    </div>
+                </div>
+                <div class="row select">
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">Bulbasaur</option>
+                            <option value="2">Charmander</option>
+                            <option value="3">Squirtle</option>
+                        </select>
+                        <label>Which Pokémon was your starter?</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <button class="btn btn-large btn-register waves-effect waves-light" type="submit" name="action">Register
+                        <button class="btn btn-large btn-register waves-effect waves-light" type="submit"
+                            name="action">Register
                         </button>
                     </div>
+                </div>
+                <div class="login-btn">
+                    <div class="#448aff blue accent-2 btn btn-small btn-register waves-effect waves-light">
+                        <a href="./login.html">Already have an accout? Log In here!</a>
                     </div>
-                    <div class="login-btn">
-                        <div class="#448aff blue accent-2 btn btn-small btn-register waves-effect waves-light">
-                            <a href="./login.html">Already have an accout? Log In here!</a>
-                        </div>                   
-                    </div>
+                </div>
             </form>
         </div>
     </div>
-
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+    </script> -->
 </body>
 
 </html>

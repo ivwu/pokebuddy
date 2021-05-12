@@ -42,23 +42,24 @@ body {
     background-color: rgba(153, 228, 238, 0.712);
 }
 
-.display-4{
-    font-size: 100px;
-    color: rgb(17, 86, 107);
+body {
     font-family: 'Girassol', cursive;
+}
+
+.display-4{
+    /* font-size: 100px; */
+    color: rgb(17, 86, 107);
 }
 
 .table, .lead {
     font-size: 20px;
     color: rgb(17, 86, 107);
-    font-family: 'Girassol', cursive;
 }
 
 .price {
     font-size: 30px;
     font-weight: 500;
     color: rgb(17, 86, 107);
-    font-family: 'Girassol', cursive;
 }
 
 .btn-success {
@@ -67,4 +68,10 @@ body {
 
 .custom {
     cursor: url(../images/ditto.png), default;
+}
+
+@media (min-width: 650px) {
+    .display-4 {
+        font-size: 100px;
+    }
 }

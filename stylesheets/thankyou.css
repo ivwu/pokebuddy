@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/coast.jpg);
+    background-image: url(../images/thankyou.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ body {
 .jumbotron {
     margin: 10%;
     padding-bottom: 1%;
-    background-color: rgba(104, 149, 233, 0.267);
+    background-color: rgba(137, 223, 230, 0.267);
 }
 
 .back {
@@ -38,32 +38,32 @@ body {
     }
 }
 
+.table {
+    background-color: rgba(153, 228, 238, 0.712);
+}
+
 body {
     font-family: 'Girassol', cursive;
 }
 
-.table {
-    background-color: rgba(114, 149, 223, 0.452);
-}
-
 .display-4{
     /* font-size: 100px; */
-    color: rgb(18, 61, 153);
+    color: rgb(17, 86, 107);
 }
 
 .table, .lead {
     font-size: 20px;
-    color: rgb(22, 74, 185);
+    color: rgb(17, 86, 107);
 }
 
 .price {
     font-size: 30px;
     font-weight: 500;
-    color: rgb(22, 74, 185);
+    color: rgb(17, 86, 107);
 }
 
-.btn-primary {
-    background-color: rgb(22, 74, 185);
+.btn-success {
+    background-color: rgb(17, 86, 107);
 }
 
 .custom {
