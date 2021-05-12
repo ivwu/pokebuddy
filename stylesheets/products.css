@@ -28,10 +28,6 @@ body {
     cursor: url(../images/ditto.png), default;
 }
 
-/* .card {
-    font-family: 'Girassol', cursive;
-} */
-
 .card-title {
     font-size: 35px;
     color: cornflowerblue
@@ -41,11 +37,3 @@ body {
     font-size: 18px;
     color:rgb(26, 141, 235)
 }
-
-/* .card {
-    background-color: rgba(228, 232, 236, 0.89);
-} */
-/* .card{
-    box-sizing: border-box;
-    margin-bottom: 1000px;
-} */

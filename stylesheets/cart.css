@@ -15,7 +15,6 @@ body {
     text-align: center;
 }
 
-
 .row {
     margin: 20px;
 }
@@ -24,7 +23,6 @@ body {
     margin: 10%;
     padding-bottom: 1%;
     background-color: rgba(209, 169, 241, 0.384);
-    /* background-color: ; */
 }
 
 .back {
