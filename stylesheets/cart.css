@@ -73,3 +73,7 @@ body {
         font-size: 50px;
     }
 }
+
+.btn-primary {
+    background-color: blueviolet;
+}

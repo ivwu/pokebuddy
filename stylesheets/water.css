@@ -73,3 +73,11 @@ body {
         font-size: 100px;
     }
 }
+
+.keep-shopping {
+    background-color: rgb(122, 168, 236);
+}
+
+.modal-title {
+    color:rgb(19, 33, 54)
+}
